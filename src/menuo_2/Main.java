@@ -18,23 +18,11 @@ public class Main {
         
         Dviratis dviratis1 = new Dviratis();
         Dviratis dviratis2 = new Dviratis();
-        dviratis1.speed();
-       
-        
-        
-        if(dviratis1 > dviratis2) {
-        	
-        	System.out.println("dviratis1 more");
-        	
-        }else {
-        	
-        	System.out.println("dviratis2 more");
-        	
-        }
-        
+        dviratis1.getSpeed();
+        dviratis2.getSpeed();
+      
 
-        	
-        	
+        
 
         
     }

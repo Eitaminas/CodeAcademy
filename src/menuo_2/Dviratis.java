@@ -4,8 +4,15 @@ import java.util.Scanner;
 
 public class Dviratis {
 
+	public Dviratis(int speed) {
+
+		speed = speed + 65;
+
+	}
+	
 	String name;
 	int speed;
+	int speed1;
 	int distance;
 	int kmh;
 
@@ -21,24 +28,25 @@ public class Dviratis {
 		System.out.println("Dviracio vidutinis greitis bus " + kmh + " kilometrai per valanda.");
 		input.close();
 	}
+	
+	public int getSpeed() {
+		return speed;
+	}
 
+	
+	
 	public void setName(String name) {
 		this.name = name;
 	}
-	
-    public Dviratis() {
-    	
-    }
-    public Dviratis(String name) {
-    	
-    	System.out.println("My name is " + name);
-    	
-}
-    
-    
-    
-    
-    
-    
-    
+
+	public Dviratis() {
+
+	}
+
+	public Dviratis(String name) {
+
+		System.out.println("My name is " + name);
+
+	}
+
 }
